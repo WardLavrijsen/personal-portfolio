@@ -8,6 +8,12 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 export const metadata: Metadata = {
   title: "Ward Lavrijsen Portfolio",
   description: "This is the portfolio-website of Ward Lavrijsen",
+  icons: [
+    {
+      rel: "icon",
+      url: "/favicon.ico",
+    },
+  ],
 };
 
 export default function RootLayout({
