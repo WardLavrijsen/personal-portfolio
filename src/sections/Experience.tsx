@@ -29,7 +29,7 @@ const portfolioProjects = [
       { title: "Experience real world networking" },
       { title: "Build custom client management system" },
     ],
-    link: "https://autocompletr.com",
+    link: "https://brofiber.nl",
   },
 ];
 
