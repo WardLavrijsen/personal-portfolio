@@ -1,6 +1,7 @@
 import PicToLinesPage from "@/assets/images/pictolines.jpg";
 import NationaalEnergieLabelPage from "@/assets/images/nationaalenergielabel.jpg";
 import AutocompletrPage from "@/assets/images/autocompletr.jpg";
+import OctanistPage from "@/assets/images/octanist.jpg";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -9,6 +10,18 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "Octanist",
+    year: "2025",
+    title: "Offline conversion tracking made easy",
+    results: [
+      { title: "Offline conversion tracking" },
+      { title: "Integrations with many ad platforms" },
+      { title: "Organization and member management" },
+    ],
+    link: "https://octanist.com",
+    image: OctanistPage,
+  },
   {
     company: "PicToLines",
     year: "2024",
@@ -56,7 +69,7 @@ export const ProjectsSection = () => {
         <SectionHeader
           eyebrown="Real-world Results"
           title="Take a look at some of my projects"
-          description="Here are some of the projects I've worked on and the results they've achieved."
+          description="Here are some of the projects I've worked on."
         />
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map((project, projectIndex) => (

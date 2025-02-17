@@ -1,6 +1,6 @@
 "use client";
 
-import memojiImage from "@/assets/images/small.png";
+import memojiImage from "@/assets/images/profile-small.jpg";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";

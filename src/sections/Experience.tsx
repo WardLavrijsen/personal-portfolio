@@ -17,7 +17,7 @@ const portfolioProjects = [
     role: "Online Marketing and SEO",
     title: "Online Aannemer",
     results: [
-      { title: "Learned a technical SEO" },
+      { title: "Learned technical SEO" },
       { title: "Software engineering for internal projects and for clients" },
     ],
     link: "https://online-aannemer.nl",
@@ -27,7 +27,7 @@ const portfolioProjects = [
     title: "Brofiber",
     results: [
       { title: "Experience real world networking" },
-      { title: "Build custom client management system" },
+      { title: "Build custom CRM like system" },
     ],
     link: "https://brofiber.nl",
   },
