@@ -2,6 +2,8 @@ import PicToLinesPage from "@/assets/images/pictolines.jpg";
 import NationaalEnergieLabelPage from "@/assets/images/nationaalenergielabel.jpg";
 import AutocompletrPage from "@/assets/images/autocompletr.jpg";
 import OctanistPage from "@/assets/images/octanist.jpg";
+import TrezmaPage from "@/assets/images/trezma-stack.jpg";
+import cronhostPage from "@/assets/images/cronhost.jpg";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -21,6 +23,30 @@ const portfolioProjects = [
     ],
     link: "https://octanist.com",
     image: OctanistPage,
+  },
+  {
+    company: "Trezma Stack",
+    year: "2025",
+    title: "The best way to start any nextjs app",
+    results: [
+      { title: "Nextjs, React, Tailwind, Typescript" },
+      { title: "tRPC, Drizzle, Better Auth, Bun" },
+      { title: "All cloudflare infrastructure (D1, R2)" },
+    ],
+    link: "https://stack.trezma.com",
+    image: TrezmaPage,
+  },
+  {
+    company: "cronhost",
+    year: "2025",
+    title: "Easy cron job scheduling",
+    results: [
+      { title: "Completely free and easy to use dashboard" },
+      { title: "Automatic retries and error handling" },
+      { title: "Build on serverless infrastructure for infinite scalability" },
+    ],
+    link: "https://cronho.st",
+    image: cronhostPage,
   },
   {
     company: "PicToLines",
